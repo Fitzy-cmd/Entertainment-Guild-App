@@ -1,0 +1,31 @@
+.cat {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 -1px 0 #D59C36, 0 1px 0 #D59C36;
+  }
+  
+  .cat a {
+    color:white;
+    text-decoration: none;
+    height:100%;
+    display:flex;
+    align-items: center;
+    padding: .25rem;
+    transition: 0.3s;
+  }
+  
+  .cat a:hover{
+    color:#D59C36;
+  }
+  
+  .cat ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+  }

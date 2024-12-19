@@ -1,0 +1,19 @@
+.form-container input {
+    background:#141414;
+    height:2.5rem;
+    width: 150%;
+    padding: 0px 15px;
+    margin: 0rem -5rem;
+    outline: 1px solid #D59C36;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input:focus {
+    outline: 1px solid #D59C36;
+
+}
+
+.input-field {
+    padding-bottom: 1rem
+}

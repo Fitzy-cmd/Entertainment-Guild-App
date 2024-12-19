@@ -1,0 +1,55 @@
+
+.slider {
+    height: 100%;
+    position: relative;
+    padding-bottom:2.5rem;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 45px;
+    color: #D59C36;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+
+.left-arrow:hover {
+    color:gold;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 45px;
+    color: #D59C36;
+    z-index: 1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.right-arrow:hover {
+    color:gold;
+}
+
+.dot-container {
+    display: flex;
+    justify-content: center
+}
+
+.dot {
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
+    color:#D59C36;
+    transition: 0.3s;
+}
+
+.dot:hover {
+    color:gold;
+}

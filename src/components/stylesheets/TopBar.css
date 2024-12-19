@@ -1,0 +1,47 @@
+.topbar {
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 0 -1px 0 #D59C36, 0 1px 0 #D59C36;
+}
+
+.topbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    height:100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    transition: 0.3s;
+}
+
+.icon {
+    padding-right:30px;
+}
+
+.topbar a:hover {
+    color:#D59C36;
+}
+
+.topbar a.active {
+    color:gold;
+}
+
+.search-bar-container {
+    display:flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    min-width: 200px;
+}
