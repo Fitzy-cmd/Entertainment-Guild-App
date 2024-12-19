@@ -1,5 +1,8 @@
 # Entertainment Guild - Web Commerce Application Documentation
 
+## Important Pre-Reading
+This project was the very first time I ever touched React and integrated a database into it. I understand that the modules and functinos are highly unoptimised, and that my layout, design and functionality choices could definitely be improved with hindsight. This project was done solo over the course of 12 weeks for a university project, and achieved a final score of **89.5%**
+
 ## Table of Contents
 
 - [Introduction](#introduction)
